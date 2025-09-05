@@ -14,6 +14,76 @@ int main() {
 ```
 > Escreva no papel várias vezes, se for preciso, sonhe com isso...
 
+## ADS2025.1_EMB - 04/09/2025
+
+### Algoritmo (adaptado)
+```c
+#include <stdio.h>
+
+int main() {
+    int n;
+    int matriz[n][n];
+
+    // leitura de n(SIZE) da matriz
+    scanf("%d", &n);
+
+    // leitura da matriz
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            scanf("%d", &matriz[i][j]);
+        }
+    }
+
+    // elevar ao quadrado a primeira e última linha
+    for (int j = 0; j < n; j++) {
+        matriz[0][j] = matriz[0][j] * matriz[0][j]; // primeira linha
+        matriz[n-1][j] = matriz[n-1][j] * matriz[n-1][j]; // última linha
+    }
+
+    int resultado = 0;
+
+    // soma das diagonais
+    for (int i = 0; i < n; i++) {
+        resultado += matriz[i][i];               // diagonal principal 
+        if (i != n - 1 - i) {                    // evitar repetir o centro (quando N ímpar)
+            resultado += matriz[i][n - 1 - i];   // diagonal secundária
+        }
+    }
+    
+    printf("%d\n", resultado);
+    return 0;
+}
+```
+
+### Output (adaptado)
+```c
+#include <stdio.h>
+
+int main() {
+    int x = 1;
+    int soma = 0;
+
+    do {
+        soma += x;
+        x++;
+    } while (x <= 5);
+
+    printf("Resultado: %d\n", soma);
+
+    return 0;
+}
+```
+
+| Passo | x antes | soma antes | Operação  | x depois | soma depois | Condição (x <= 5) |
+| ----- | ------- | ---------- | --------- | -------- | ----------- | ----------------- |
+| 1     | 1       | 0          | soma += x | 2        | 1           | 2 <= 5 (continua) |
+| 2     | 2       | 1          | soma += x | 3        | 3           | 3 <= 5 (continua) |
+| 3     | 3       | 3          | soma += x | 4        | 6           | 4 <= 5 (continua) |
+| 4     | 4       | 6          | soma += x | 5        | 10          | 5 <= 5 (continua) |
+| 5     | 5       | 10         | soma += x | 6        | 15          | 6 <= 5 (para)     |
+
+> Output > Resultado: 15; O do...while garante que o bloco será executado *pelo menos uma vez*, mesmo que a condição fosse falsa logo de início.
+
 ## Exemplos de questões 
 QUESTÃO 01 - Indique se as seguintes afirmações sobre variáveis, estruturas de decisão e
 repetição em C são verdadeiras (V) ou falsas (F). Quando uma afirmação for indicada como
