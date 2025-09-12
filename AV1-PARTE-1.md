@@ -1,5 +1,5 @@
 # AV1-PARTE-1
-Isso aqui não reflete a prova real, é apenas especulações para a avaliação que será realizada no dia 04/09/2025 ADS2025.1_EMB e 05/09/2025 ADS2025.1_A; serve apenas de documento guia, perdão se não for elucidar o suficiente (resultado da monitoria só se deu dia 02/09/2025).
+Isso aqui não reflete a prova real, perdão se não for elucidar o suficiente.
 
 > Recomendo você ir exercitando até calejar a mão, usando uma caneta azul e folha(s) de papel A4.
 
@@ -331,22 +331,7 @@ int main() {
     return 0;
 }
 ```
-
-## Especulação 1
-2 (Duas) questões de construção de algoritmo (aberta)
-
-1 (Uma) questão de CS (compilação-saída, output de um algoritmo) 
-
-1 (Uma) questão de VF (verdadeiro-falso, pedindo justificativa para falsas)
-
-## Especulação 2
-2 (Duas) questões de VF (verdadeiro-falso, pedindo justificativa para falsas)
-
-1 (Uma) questão de construção de algoritmo (aberta)
-
-1 (Uma) questão de CS (compilação-saída, output de um algoritmo)
-
-> Não tenho bola de cristal, boa prova!
+> Boa prova!
 
 ![Imagem](https://pbs.twimg.com/media/Gzv0TwAWwAEGESo?format=jpg&name=900x900)
 
