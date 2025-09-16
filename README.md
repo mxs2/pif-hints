@@ -6,6 +6,14 @@ tuplas, tipos, classes, polimorfismo, funções de alta ordem, recursão.
 
 Contato: dfb2@cesar.school
 
+## Utéis
+
+[Beecrowd](https://www.github.com/mxs2/emb-pif)
+
+[Guia da AV1-PARTE-1](./AV1-PARTE-1.md)
+
+[Lista de Revisão AV1-PARTE-2](./docs/AV1-PARTE-2-REVISAO.pdf)
+
 
 ## Para provas e afins
 
