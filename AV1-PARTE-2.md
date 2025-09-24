@@ -198,182 +198,124 @@ char txt[20] = "Oi";
 strcat(txt, "!");
 printf("%s", txt);
 ```
-> Saída: Oi!
-
 ```c
 char a[] = "abc";
 char b[] = "abc";
 int r = strcmp(a, b);
 printf("%d", r);
 ```
-> Saída: 0 (iguais)
-
 ```c
 char s[10] = "abc";
 printf("%lu", sizeof(s));
 ```
-> Saída: 10 (tamanho do array, não da string)
-
 ```c
 char x = 'a';
 if(isdigit(x)) printf("digito\n");
 else printf("nao\n");
 ```
-> Saída: nao (isdigit() verifica se é número)
-
 ```c
 char p[10] = "C";
 strncat(p, "ESAR", 2);
 printf("%s\n", p);
 ```
-> Saída: CESAR (concatena só 2 caracteres)
-
 ```c
 char s[] = "12345";
 printf("%c", s[ strlen(s) - 1 ]);
 ```
-> Saída: 5 (último caractere)
-
 ```c
 char c = '\n';
 printf("%d", isspace(c));
 ```
-> Saída: 1 (isspace() verifica espaço em branco)
-
 ```c
 char s[] = "abc";
 printf("%c", *(s+1));
 ```
-> Saída: b (ponteiro para o segundo caractere)
-
 ```c
 char t[4] = {'c','o','d','e'};
 printf("%s", t);
 ```
-> Saída: code (array de chars sem '\0' funciona aqui)
-
 ```c
 char *p = strchr("banana", 'n');
 printf("%s", p);
 ```
-> Saída: nana (strchr retorna ponteiro para a primeira ocorrência)
-
 ```c
 printf("%c", "ABC"[0]);
 ```
-> Saída: A (acesso direto ao caractere)
-
 ```c
 int soma(int a,int b){return a+b;}
 int main(){printf("%d", soma(3,4));}
 ```
-> Saída: 7 (função simples de soma)
-
 ```c
 void inc(int *p){(*p)++;}
 int main(){int x=5;inc(&x);printf("%d",x);}
 ```
-> Saída: 6 (incrementa via ponteiro)
-
 ```c
 int f(){static int c=0;return ++c;}
 int main(){printf("%d %d",f(),f());}
 ```
-> Saída: 1 2 (static mantém valor entre chamadas)
-
 ```c
 void show(int n){printf("%d",n);}
 int main(){printf("%d", show(3));}
 ```
-> Saída: 3 (show imprime 3, mas main não imprime nada)
-
 ```c
 int x=10;
 int soma(int a){return a+x;}
 int main(){int x=5;printf("%d",soma(3));}
 ```
-> Saída: 13 (soma usa x global)
-
 ```c
 void foo(){int x=1;}
 int main(){foo();printf("ok");}
 ```
-> Saída: ok (x é local a foo)
-
 ```c
 int f(int n){if(n==0)return 1;return n*f(n-1);}
 int main(){printf("%d",f(4));}
 ```
-> Saída: 24 (fatorial de 4)
-
 ```c
 int g(int a,int b){return a>b?a:b;}
 int main(){printf("%d",g(2,7));}
 ```
-> Saída: 7 (maior entre 2 e 7)
-
 ```c
 int add(int a,int b){return a+b;}
 int main(){int (*p)(int,int)=add;printf("%d",p(1,2));}
 ```
-> Saída: 3 (ponteiro para função)
-
 ```c
 struct P{int x,y;}p={1,2};
 printf("%d",p.y);
 ```
-> Saída: 2 (acesso a membro da struct)
-
 ```c
 typedef struct{int h,m,s;}Hora;
 Hora t={1,2,3};
 printf("%02d:%02d",t.h,t.m);
 ```
-> Saída: 01:02 (formatação com zeros à esquerda)
-
 ```c
 union U{int a;char c;};
 union U u;u.a=65;printf("%c",u.c);
 ```
-> Saída: A (mesmo espaço na union)
-
 ```c
 typedef union{float t;char st;}Sensor;
 Sensor s; s.t=25.5; printf("%.1f",s.t);
 ```
-> Saída: 25.5 (acesso ao membro float)
-
 ```c
 enum dia{SEG=1,TER,QUA};
 printf("%d",QUA);
 ```
-> Saída: 3 (enum começa em 1)
-
 ```c
 struct S{int a;};
 struct S s={.a=5};
 printf("%d",s.a);
 ```
-> Saída: 5 (inicialização designada)
-
 ```c
 struct P{int x;};
 struct P *pp=NULL;
 printf("%p",(void*)pp);
 ```
-> Saída: 0x0 (ponteiro nulo)
-
 ```c
 enum mes{JAN=1,FEV}; printf("%d",FEV);
 ```
-> Saída: 2 (enum incrementa automaticamente)
-
 ```c
 struct A{char c;int i;};
 printf("%zu",sizeof(struct A));
 ```
-> Saída: 8 ou 12 (depende do alinhamento)
-
 
 ## Especulação
 
