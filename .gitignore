@@ -1,0 +1,35 @@
+# C99 compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+build/
+debug/
+release/
+dist/
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
