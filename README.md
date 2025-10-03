@@ -64,6 +64,18 @@ A prova pode ter os seguintes formatos:
 - [Code Academy](https://www.codecademy.com/catalog/language/c)  
 - [Plus (YouTube Playlist)](https://www.youtube.com/playlist?list=PLa75BYTPDNKZWYypgOFEsX3H2Mg-SzuLW)
 
+## Beecrowd 
+| Veredicto | Abreviação | Critérios e Explicação |
+| :--- | :--- | :--- |
+| **Accepted** | **AC** | O programa produziu a **saída correta para todos os casos de teste** dentro dos limites de tempo e memória especificados. |
+| **Compilation Error** | **CE** | O compilador **não conseguiu criar um executável** a partir do seu código-fonte. Isso geralmente se deve a **erros de sintaxe**, uso incorreto de bibliotecas ou problemas de versão do compilador. |
+| **Time Limit Exceeded** | **TLE** | O programa **demorou mais tempo do que o máximo permitido** (**limite de tempo**) para ser executado. Quase sempre indica que o seu **algoritmo é muito ineficiente**. |
+| **Runtime Error** | **RE** | O programa **caiu ou encerrou de forma anormal** durante a execução. As causas comuns incluem: **divisão por zero**, acesso a um índice de *array* fora dos limites, *stack overflow* (recursão infinita) ou **violação de acesso à memória** (*segmentation fault*). |
+| **Memory Limit Exceeded** | **MLE** | O programa tentou usar **mais memória (RAM) do que o máximo permitido** (**limite de memória**). Isso pode ser causado pela declaração de estruturas de dados excessivamente grandes. |
+| **Wrong Answer** | **WA** | O programa executou com sucesso, mas produziu uma **saída incorreta** para pelo menos um caso de teste. Isso significa que há um **erro de lógica no seu algoritmo**. |
+| **Presentation Error** | **PE** | A saída do programa está **correta no conteúdo**, mas **incorreta no formato**. Por exemplo, espaçamento extra, linhas em branco ou quebras de linha ausentes. |
+| **Output Limit Exceeded** | **OLE** | O programa produziu uma **quantidade excessiva de saída** (por exemplo, milhões de linhas). Isso geralmente ocorre se o código entrar em um *loop* infinito que inclui uma instrução de impressão. |
+
 ## Projeto CLI-Lib (Jogo)
 
 ### Estrutura Recomendada
