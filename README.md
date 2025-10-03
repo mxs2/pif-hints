@@ -17,7 +17,7 @@ Contato: dfb2@cesar.school
 
 ## Pasta Guiding
 
-A pasta `/guiding/` contém materiais de apoio individual para estudantes e monitoria.
+A pasta `/guiding/` contém materiais de apoio individual para estudantes e monitoria, [confira aqui](./guiding/).
 
 ### Como Usar
 1. **Para Estudantes**: Cada estudante pode ter sua pasta personalizada com:
