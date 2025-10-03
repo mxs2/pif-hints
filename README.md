@@ -10,9 +10,9 @@ Contato: dfb2@cesar.school
 
 [Beecrowd](https://www.github.com/mxs2/emb-pif)
 
-[Guia da AV1-PARTE-1](./AV1-PARTE-1.md)
+[Guia da AV1-PARTE-1](./docs/AV1-PARTE-1.md)
 
-[Guia da AV1-PARTE-2](./AV1-PARTE-2.md)
+[Guia da AV1-PARTE-2](./docs/AV1-PARTE-2.md)
 
 [Lista de Revisão AV1-PARTE-2](./docs/AV1-PARTE-2-REVISAO.pdf)
 
