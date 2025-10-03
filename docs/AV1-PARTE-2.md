@@ -1,8 +1,8 @@
 # AV1-PARTE-2
 
-Lembre de checar [AV1-PARTE-1.md](./docs/AV1-PARTE-1.md) para relembrar conceitos básicos.
+Lembre de checar [AV1-PARTE-1.md](./AV1-PARTE-1.md) para relembrar conceitos básicos.
 
-As questões a seguir são baseadas na [lista de revisão oficial](./docs/AV1-PARTE-2-REVISAO.pdf).
+As questões a seguir são baseadas na [lista de revisão oficial](./AV1-PARTE-2-REVISAO.pdf).
 
 > Use caneta azul e papel A4 para praticar.
 
