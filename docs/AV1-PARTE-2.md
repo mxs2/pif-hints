@@ -317,23 +317,41 @@ int main() {
 ## Dicas de Memorização
 
 121 - Média: Percorre array, calcula média, guarda índice do maior
+
 122 - Maiúsculo: Percorre string, converte minúsculas subtraindo 32
+
 123 - MDC: Função recursiva Euclides, acumula resultado em vetor
+
 124 - Enum Meses: Define enum, array de strings, imprime por índice
+
 125 - Diferença Horas: Lê HH:MM:SS, converte para segundos, diferença
+
 126 - Union Valor: Lê tipo, usa union para armazenar e imprimir
+
 127 - Contar Caracteres: Percorre string, conta dígitos, letras, outros
+
 128 - Palíndromo: Limpa string, verifica simetria ignorando espaços
+
 129 - Ordenar Horários: Converte para segundos, usa bubble sort
+
 130 - String ao Contrário: Imprime do fim para o início (iterativo/recursivo)
+
 131 - Troca com Ponteiros: Função simples que troca valores via ponteiros
+
 132 - Soma com Ponteiros: Percorre vetor somando valores via aritmética de ponteiros
+
 133 - Cópia Dinâmica de String: Aloca memória, copia caractere a caractere
+
 134 - Inverter Vetor: Usa dois ponteiros, troca valores até se encontrarem
+
 135 - Média sem Colchetes: Soma valores usando aritmética de ponteiros
+
 136 - Maiúsculo com toupper: Percorre string, converte cada char com toupper
+
 137 - Contar Substring: Percorre texto, compara n caracteres com strncmp
+
 138 - Remover Espaços: Usa dois ponteiros, um para ler e outro para escrever
+
 139 - Concatenar sem strcat: Vai até o fim de dest, copia orig para lá
 
 ## Compilação-saída (CS)
