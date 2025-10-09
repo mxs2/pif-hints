@@ -561,7 +561,7 @@ printf("%c", *(p+2));
 ```
 
 --- 
-Gabarito: [outputs/outputs.txt](./outputs/outputs.txt) 
+Gabarito: [outputs/outputs.txt](../outputs/outputs.txt) 
 
 ## Especulação
 
