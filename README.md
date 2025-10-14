@@ -12,6 +12,9 @@ Contato: dfb2@cesar.school
 | **@gitviini** | FUI TESTADO EM C COM APENAS 2 AULAS (reprovei?) \| DiárioDeUmQuaseDev | [https://youtube.com/watch?v=4-d-1fJ3Vyc](https://youtube.com/watch?v=oMjfXLqiNV4) |
 | **@vbluuiza** | Aulão de C (Arrays, Funções, Ponteiros, Strutcs, Union, Enum & Strings) | [https://youtube.com/watch?v=oMjfXLqiNV4](https://www.youtube.com/watch?v=4-d-1fJ3Vyc) |
 
+## Aprenda de Maneira Gamificada 
+https://www.learn-c.org
+
 ## Links Úteis
 
 ### Materiais de Estudo
