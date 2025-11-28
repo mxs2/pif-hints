@@ -6,7 +6,8 @@ tuplas, tipos, classes, polimorfismo, funções de alta ordem, recursão.
 
 Contato: dfb2@cesar.school
 
-## Tech Night 2025.2
+## Alguns exemplos de jogos desenvolvidos com cli-lib
+### Tech Night 2025.2
 - [LOGICA-LOGICA-E-MAIS-LOGICA](https://github.com/aline-henriques/LOGICA-LOGICA-E-MAIS-LOGICA)  
 - [jogo-Ecos-do-Labirinto](https://github.com/ArchangelLoer/jogo-Ecos-do-Labirinto)  
 - [LogiCDetetive](https://github.com/BabiCabral/LogiCDetetive)  
