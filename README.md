@@ -6,6 +6,19 @@ tuplas, tipos, classes, polimorfismo, funções de alta ordem, recursão.
 
 Contato: dfb2@cesar.school
 
+## Tech Night 2025.2
+- [LOGICA-LOGICA-E-MAIS-LOGICA](https://github.com/aline-henriques/LOGICA-LOGICA-E-MAIS-LOGICA)  
+- [jogo-Ecos-do-Labirinto](https://github.com/ArchangelLoer/jogo-Ecos-do-Labirinto)  
+- [LogiCDetetive](https://github.com/BabiCabral/LogiCDetetive)  
+- [corteDaVerdade](https://github.com/LuizMXavier/corteDaVerdade)  
+- [pifGame-Diaboolean](https://github.com/MarcosFraga0/pifGame-Diaboolean)  
+- [Logic-Wizard-](https://github.com/MatheusAS1/Logic-Wizard-)  
+- [game_in_c](https://github.com/MGT-21/game_in_c)  
+- [sharklog-game](https://github.com/PvssDev/sharklog-game)  
+- [Point-of-No-Return](https://github.com/RayssaRR/Point-of-No-Return)  
+- [Jogo-Sobrevivendo-a-PIF-com-LogiCa-CAPS-2025-2](https://github.com/SusanCapelo19/Jogo-Sobrevivendo-a-PIF-com-LogiCa-CAPS-2025-2)  
+
+
 ## Da Comunidade, Para a Comunidade
 | Autor/Canal | Título do Vídeo | Link |
 | :--- | :--- | :--- |
